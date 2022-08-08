@@ -2,19 +2,24 @@
 # Pewlett Hackard Analysis
 
 ## Overview of the analysis:
-The purpose of this challenge is to analyze and create relationships between multiple datasets using SQL language and running the datas in pgAdmin environment.
+The purpose of this challenge is to analyze and create relationships between multiple datasets using SQL language and running the datas in pgAdmin environment. This project will help Pewlett Hackard to plan and address the upcoming wave of mass retirement in the company.
 
-Using the tools and data provided to us, we were able to create new tables, reports and determined the following analysis:
+
+Using the tools and data provided to us, we were able to create new tables, reports, queries and determine the following analysis:
 - The Number of Retiring Employees by Title
 - The Employees Eligible for the Mentorship Program
 
 ## Results:
 
+
+
 **Table 1: Retiring Employees by Title**
 
 ![Retiring Titles](https://raw.githubusercontent.com/Mishabatoon/Pewlett-Hackard-Analysis/main/Screenshots/Retiring%20Titles.png)
 
-**Table 2: Eligible for the Mentorship Program by Title**
+**Table 2: Eligible for the Mentorship Program by Retiring Title**
+
+In order to be considered and be part of the Mentorship Program, an employee must be born between January 1, 1965 and December 31, 1965.
 
 ![Eligible_Mentorship](https://raw.githubusercontent.com/Mishabatoon/Pewlett-Hackard-Analysis/main/Screenshots/eligible_mentorship.png)
 
@@ -32,3 +37,4 @@ Good next steps for Human Resources and hiring Managers to consider would be:
 - to query and create a table for the number of positions that need backfilling within the various departments. 
 (This information would be useful to reveal the departments that are the most and least impacted by a wave of retirements)
 - a query that will determine the average salary range for each position/title by department so that they can project or forecast the budget for the salary payables for the next coming years.
+
